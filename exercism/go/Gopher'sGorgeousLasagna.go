@@ -6,10 +6,10 @@ func RemainingOvenTime(time int) int {
 	return OvenTime - time
 }
 
-func PreparationTime(layers int) int {
-	return layers * 2
+func PreparationTime(numberOfLayers int) int {
+	return numberOfLayers * 2
 }
 
-func ElapsedTime(layers, time int) int {
-	return PreparationTime(layers) + time
+func ElapsedTime(numberOfLayers, time int) int {
+	return PreparationTime(numberOfLayers) + time
 }
