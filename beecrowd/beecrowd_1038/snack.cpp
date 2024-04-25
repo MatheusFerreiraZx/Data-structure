@@ -24,6 +24,7 @@ int main()
   cin >> quantidade;
 
   if (quantidade <= 0)
+
   {
     return -1;
   }
