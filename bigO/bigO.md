@@ -2,7 +2,7 @@
 
 ## O que é Big O?
 
-Big O é uma forma matemática de descrever o comportamento de um algortimo. É uma notação que descreve o limite superior de tempo de execução de um algoritmo.
+Big O é uma forma matemática de descrever o comportamento de um algoritmo. É uma notação que descreve o limite superior de tempo de execução de um algoritmo.
 
 Com isso, conseguimos saber se um algoritmo é eficiente ou não, e também comparar algoritmos diferentes.
 
