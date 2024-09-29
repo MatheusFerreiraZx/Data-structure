@@ -6,11 +6,11 @@ Big O é uma forma matemática de descrever o comportamento de um algoritmo. É 
 
 Com isso, conseguimos saber se um algoritmo é eficiente ou não, e também comparar algoritmos diferentes.
 
-## Tipos de perfomance
+## Tipos de performance
 
 #### Constante O(1)
 
-Constante é uma funcão que indepedente do tipo de entrada, o seu tempo de execução é sempre o mesmo. Como por exemplo, a leitura do primeiro index de um array.
+Constante é uma funcão que independente do tipo de entrada, o seu tempo de execução é sempre o mesmo. Como por exemplo, a leitura do primeiro index de um array.
 
 ```swift
 let array = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]];
