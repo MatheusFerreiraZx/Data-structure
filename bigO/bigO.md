@@ -100,3 +100,29 @@ findIndex(array, 5)
 ```
 
 O tempo de execução é proporcional ao logaritmo do tamanho do array.
+
+### Exponencial O(2^n)
+
+Exponencial é uma função que o tempo de execução é proporcional a 2 elevado a n. Como por exemplo, achar o n-ésimo número de Fibonacci. Isso significa que o tempo de execução dobra a cada novo elemento.
+
+```swift
+func fibonacci(_ n: Int) -> Int {
+  if n <= 1 {
+    return n
+  }
+
+  return fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+fibonacci(10)
+```
+
+O tempo de execução é proporcional a 2 elevado a n.
+
+## Conclusão
+
+Big O é uma forma de descrever o comportamento de um algoritmo. Com isso, conseguimos saber se um algoritmo é eficiente ou não, e também comparar algoritmos diferentes.
+
+## Referências
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Big_O_notation)
